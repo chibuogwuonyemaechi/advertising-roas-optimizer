@@ -16,7 +16,7 @@ By applying predictive analytics, marketers can **increase campaign profitabilit
 
 ---
 
-## 🛠 Features
+o## 🛠 Features
 - **Data Pre-processing**: Cleans and prepares campaign data for modelling.
 - **Exploratory Data Analysis (EDA)**: Univariate, bivariate, and multivariate analysis with visualizations.
 - **Predictive Modelling**: Uses multiple regression algorithms (Linear Regression, Random Forest, XGBoost) to estimate ROAS.
@@ -97,7 +97,6 @@ Updated .gitignore to allow sample data but exclude large datasets.
 
 Polished README.md with professional structure and usage guide.
 
-🔗 View Full CHANGELOG (https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt/c/CHANGELOG.md)
 
 
 📬 Contact
