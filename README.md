@@ -1,11 +1,13 @@
-# Advertising Campaign ROAS Optimizer
+# 📊 Advertising Campaign ROAS Optimizer
 
-A machine learning project that predicts **Return on Ad Spend (ROAS)** and provides data-driven recommendations for optimizing media allocation in advertising campaigns. Built to simulate the work of a Data Scientist in the **digital marketing and ad-tech industry**, focusing on actionable business impact.
+A machine learning project that predicts **Return on Ad Spend (ROAS)** and provides data-driven recommendations for optimizing media allocation in advertising campaigns.  
+Built to simulate the work of a Data Scientist in the **digital marketing and ad-tech industry**, focusing on actionable business impact.
 
 ---
 
-## 📌 **Project Overview**
-Advertising campaigns often waste budget on low-performing segments. This project uses historical campaign data to:
+## 📌 Project Overview
+Advertising campaigns often waste budget on low-performing segments.  
+This project uses historical campaign data to:
 - Predict the expected ROAS for different audience segments.
 - Recommend optimized budget allocations.
 - Simulate the impact of these changes using **A/B testing**.
@@ -14,29 +16,91 @@ By applying predictive analytics, marketers can **increase campaign profitabilit
 
 ---
 
-## 🛠 **Features**
-- **Data Preprocessing**: Cleans and prepares campaign data for modeling.
-- **Predictive Modeling**: Uses regression algorithms (e.g., Linear Regression, XGBoost) to estimate ROAS.
+## 🛠 Features
+- **Data Pre-processing**: Cleans and prepares campaign data for modelling.
+- **Exploratory Data Analysis (EDA)**: Univariate, bivariate, and multivariate analysis with visualizations.
+- **Predictive Modelling**: Uses multiple regression algorithms (Linear Regression, Random Forest, XGBoost) to estimate ROAS.
 - **Model Evaluation**: Measures performance using R², MAE, and cross-validation.
 - **Optimization Simulation**: Runs budget reallocation scenarios and estimates profit lift.
 - **Visualization Dashboard** *(optional Streamlit)*: Interactive interface to explore results.
+- **Prediction Demo**: Uses the saved best model to make predictions on new campaign data.
 
 ---
 
-## 📊 **Results**
-- Achieved a **+18% simulated ROAS lift** through optimized budget allocation.
-- Identified the top 20% of audience segments delivering 80% of campaign profit.
-- Demonstrated how **A/B testing** validates optimization impact.
+## 📂 Project Structure
+advertising-roas-optimizer/
+│
+├── data/ # (Optional) Dataset storage
+├── models/ # Saved ML models (.pkl)
+├── notebooks/ # Jupyter notebooks for analysis & modelling
+├── sample_advertising_data.csv # Sample dataset for demo
+├── requirements.txt # Python dependencies
+├── .gitignore # Ignored files & folders
+├── README.md # Project documentation
+└── CHANGELOG.md # Release history
+
 
 ---
 
-## 🧰 **Tech Stack**
+## 🧰 Tech Stack
 - **Language**: Python 3.x
-- **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
+- **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, Joblib
 - **Visualization**: Power BI / Streamlit
 - **Version Control**: Git, GitHub
 - **Environment**: Jupyter Notebook
 
 ---
 
-## 📂 **Project Structure**
+## 🚀 How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/chibuogwuonyemaechi/advertising-roas-optimizer.git
+   cd advertising-roas-optimizer
+
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+
+
+3. Run Jupyter Notebook
+   ```bash
+   jupyter notebook
+
+4. Open the main notebook in the notebooks/ folder and run all cells.
+
+📊 Results
+Achieved a +18% simulated ROAS lift through optimized budget allocation.
+
+Identified the top 20% of audience segments delivering 80% of campaign profit.
+
+Demonstrated how A/B testing validates optimization impact.
+
+
+📢 Release Notes – v1.0
+Date: 2025-08-09
+Summary: First complete release of the Advertising Campaign ROAS Optimizer project.
+
+Changes:
+
+Added full EDA section with univariate, bivariate, and multivariate analysis.
+
+Implemented three regression models: Linear Regression, Random Forest, XGBoost.
+
+Added automatic best model saving (best_model.pkl).
+
+Included prediction demo with sample dataset.
+
+Created sample_advertising_data.csv for GitHub demo usage.
+
+Updated .gitignore to allow sample data but exclude large datasets.
+
+Polished README.md with professional structure and usage guide.
+
+🔗 View Full CHANGELOG (https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt/c/CHANGELOG.md)
+
+
+📬 Contact
+Author: Chibuogwu Onyemaechi
+GitHub: chibuogwuonyemaechi
+Email: ochibuogwu5@gmail.com
