@@ -12,17 +12,22 @@ venv/
 .venv/
 *.egg-info/
 
-# Ignore large dataset files
+# Ignore large dataset files EXCEPT sample CSV and data/ folder
 *.csv
+!sample_advertising_data.csv
+!data/*.csv
+
 *.tsv
 *.xlsx
 *.xls
 *.json
 *.parquet
 
-# Ignore model files (optional - keep if you want models on GitHub)
+# Ignore model files EXCEPT those in /models folder
 *.pkl
+!models/*.pkl
 *.joblib
+!models/*.joblib
 
 # Ignore OS-specific files
 .DS_Store
