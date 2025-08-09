@@ -1,14 +1,15 @@
 ---
-title: Streamlit Template Space
+title: Advertising Roas Optimizer
 emoji: 🚀
 colorFrom: red
 colorTo: red
 sdk: docker
 app_port: 8501
 tags:
-  - streamlit
+- streamlit
 pinned: false
-short_description: Streamlit template space
+short_description: Machine learning app that predicts Return on Ad Spend (ROAS)
+license: mit
 ---
 
 # Welcome to Streamlit!
