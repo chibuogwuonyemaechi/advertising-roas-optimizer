@@ -1,3 +1,21 @@
+---
+title: Advertising Campaign ROAS Optimizer
+emoji: 📊
+colorFrom: yellow
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.32.0
+app_file: app.py
+pinned: false
+license: mit
+tags:
+  - machine-learning
+  - marketing
+  - advertising
+  - streamlit
+---
+
+
 # 📊 Advertising Campaign ROAS Optimizer
 
 A machine learning project that predicts **Return on Ad Spend (ROAS)** and provides data-driven recommendations for optimizing media allocation in advertising campaigns.  
