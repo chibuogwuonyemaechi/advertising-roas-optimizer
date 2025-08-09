@@ -17,9 +17,26 @@ tags:
 ---
 
 # 📊 Advertising Campaign ROAS Optimizer
+[![GitHub release](https://img.shields.io/github/v/release/chibuogwuonyemaechi/advertising-roas-optimizer?color=blue&label=Release)](https://github.com/chibuogwuonyemaechi/advertising-roas-optimizer/releases/tag/v1.0)
 
 A machine learning project that predicts **Return on Ad Spend (ROAS)** and provides data-driven recommendations for optimizing media allocation in advertising campaigns.  
 Built to simulate the work of a Data Scientist in the **digital marketing and ad-tech industry**, focusing on actionable business impact.
+
+---
+
+
+## 📢 Release Notes – v1.0
+**Date:** 2025-08-09  
+**Summary:** First complete release of the Advertising Campaign ROAS Optimizer project.
+
+### Changes:
+- Added full EDA section with univariate, bivariate, and multivariate analysis.
+- Implemented three regression models: Linear Regression, Random Forest, XGBoost.
+- Added automatic best model saving (`best_model.pkl`).
+- Included prediction demo that runs with a sample dataset.
+- Created `sample_advertising_data.csv` for GitHub demo usage.
+- Updated `.gitignore` to allow sample data and exclude large/real datasets.
+- Polished README.md with professional project structure and usage guide.
 
 ---
 
@@ -32,9 +49,10 @@ This project uses historical campaign data to:
 
 By applying predictive analytics, marketers can **increase campaign profitability** and make **data-informed media-buying decisions**.
 
+
 ---
 
-o## 🛠 Features
+## 🛠 Features
 - **Data Pre-processing**: Cleans and prepares campaign data for modelling.
 - **Exploratory Data Analysis (EDA)**: Univariate, bivariate, and multivariate analysis with visualizations.
 - **Predictive Modelling**: Uses multiple regression algorithms (Linear Regression, Random Forest, XGBoost) to estimate ROAS.
@@ -93,27 +111,6 @@ Achieved a +18% simulated ROAS lift through optimized budget allocation.
 Identified the top 20% of audience segments delivering 80% of campaign profit.
 
 Demonstrated how A/B testing validates optimization impact.
-
-
-📢 Release Notes – v1.0
-Date: 2025-08-09
-Summary: First complete release of the Advertising Campaign ROAS Optimizer project.
-
-Changes:
-
-Added full EDA section with univariate, bivariate, and multivariate analysis.
-
-Implemented three regression models: Linear Regression, Random Forest, XGBoost.
-
-Added automatic best model saving (best_model.pkl).
-
-Included prediction demo with sample dataset.
-
-Created sample_advertising_data.csv for GitHub demo usage.
-
-Updated .gitignore to allow sample data but exclude large datasets.
-
-Polished README.md with professional structure and usage guide.
 
 
 
