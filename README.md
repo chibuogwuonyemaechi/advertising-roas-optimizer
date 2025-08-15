@@ -1,5 +1,7 @@
 ---
 title: Advertising Campaign ROAS Optimizer
+🚀 **Live Demo:** [Run the App on Hugging Face](https://huggingface.co/spaces/Chibuogwu/advertising-roas-optimizer)
+[![Live Demo on Hugging Face](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/Chibuogwu/advertising-roas-optimizer)
 emoji: 📊
 colorFrom: yellow
 colorTo: blue
@@ -90,3 +92,27 @@ advertising-roas-optimizer/
    ```bash
    git clone https://github.com/chibuogwuonyemaechi/advertising-roas-optimizer.git
    cd advertising-roas-optimizer
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+
+3. Run Jupyter Notebook
+
+jupyter notebook
+
+
+4. Open the main notebook in the notebooks/ folder and run all cells.
+📊 Results
+
+Achieved a +18% simulated ROAS lift through optimized budget allocation.
+
+Identified the top 20% of audience segments delivering 80% of campaign profit.
+
+Demonstrated how A/B testing validates optimization impact.
+
+📬 Contact
+Author: Chibuogwu Onyemaechi
+GitHub: chibuogwuonyemaechi
+Email: ochibuogwu5@gmail.com
