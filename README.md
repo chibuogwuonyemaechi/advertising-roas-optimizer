@@ -1,7 +1,5 @@
 ---
 title: Advertising Campaign ROAS Optimizer
-🚀 **Live Demo:** [Run the App on Hugging Face](https://huggingface.co/spaces/Chibuogwu/advertising-roas-optimizer)
-[![Live Demo on Hugging Face](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/Chibuogwu/advertising-roas-optimizer)
 emoji: 📊
 colorFrom: yellow
 colorTo: blue
@@ -17,6 +15,8 @@ tags:
   - streamlit
   - data-science
 ---
+🚀 **Live Demo:** [Run the App on Hugging Face](https://huggingface.co/spaces/Chibuogwu/advertising-roas-optimizer)
+[![Live Demo on Hugging Face](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/Chibuogwu/advertising-roas-optimizer)
 
 # 📊 Advertising Campaign ROAS Optimizer
 [![GitHub release](https://img.shields.io/github/v/release/chibuogwuonyemaechi/advertising-roas-optimizer?color=blue&label=Release)](https://github.com/chibuogwuonyemaechi/advertising-roas-optimizer/releases/tag/v1.0)
