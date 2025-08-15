@@ -24,7 +24,6 @@ Built to simulate the work of a Data Scientist in the **digital marketing and ad
 
 ---
 
-
 ## 📢 Release Notes – v1.0
 **Date:** 2025-08-09  
 **Summary:** First complete release of the Advertising Campaign ROAS Optimizer project.
@@ -49,7 +48,6 @@ This project uses historical campaign data to:
 
 By applying predictive analytics, marketers can **increase campaign profitability** and make **data-informed media-buying decisions**.
 
-
 ---
 
 ## 🛠 Features
@@ -66,15 +64,14 @@ By applying predictive analytics, marketers can **increase campaign profitabilit
 ## 📂 Project Structure
 advertising-roas-optimizer/
 │
-├── data/ # (Optional) Dataset storage
-├── models/ # Saved ML models (.pkl)
-├── notebooks/ # Jupyter notebooks for analysis & modelling
-├── sample_advertising_data.csv # Sample dataset for demo
-├── requirements.txt # Python dependencies
-├── .gitignore # Ignored files & folders
-├── README.md # Project documentation
-└── CHANGELOG.md # Release history
-
+├── data/ # (Optional) Dataset storage  
+├── models/ # Saved ML models (.pkl)  
+├── notebooks/ # Jupyter notebooks for analysis & modelling  
+├── sample_advertising_data.csv # Sample dataset for demo  
+├── requirements.txt # Python dependencies  
+├── .gitignore # Ignored files & folders  
+├── README.md # Project documentation  
+└── CHANGELOG.md # Release history  
 
 ---
 
@@ -82,7 +79,7 @@ advertising-roas-optimizer/
 - **Language**: Python 3.x
 - **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, Joblib
 - **Visualization**: Power BI / Streamlit
-- **Version Control**: Git, GitHub
+- **Version Control**: Git, GitHub, Hugging Face
 - **Environment**: Jupyter Notebook
 
 ---
@@ -93,28 +90,3 @@ advertising-roas-optimizer/
    ```bash
    git clone https://github.com/chibuogwuonyemaechi/advertising-roas-optimizer.git
    cd advertising-roas-optimizer
-
-2. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-
-
-3. Run Jupyter Notebook
-   ```bash
-   jupyter notebook
-
-4. Open the main notebook in the notebooks/ folder and run all cells.
-
-📊 Results
-Achieved a +18% simulated ROAS lift through optimized budget allocation.
-
-Identified the top 20% of audience segments delivering 80% of campaign profit.
-
-Demonstrated how A/B testing validates optimization impact.
-
-
-
-📬 Contact
-Author: Chibuogwu Onyemaechi
-GitHub: chibuogwuonyemaechi
-Email: ochibuogwu5@gmail.com
